@@ -10,8 +10,9 @@ Steps:
   * add ds1307 to the dtoverlay line
     * dtoverlay=vc4-fkms-v3d,ds1307
   * Add/uncomment dtparam=i2c_arm=on.
+1a. git clone https://github.com/Maynardnaze/x728-Monitor.git 
 2. reboot
-3. Run sudo ./setup.sh
+3. Run sudo bash setup.sh
 4. run with sudo ./x728-monitor.py or sudo python3 x728-monitor.py
 5. Optional,  To start as a servive.  Stop any running instance, and run
   sudo systectl start x728Monitor.service
